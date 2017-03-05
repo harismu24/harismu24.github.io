@@ -1,0 +1,50 @@
+
+div {
+    padding-top: 50px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+    padding-left: 350px;
+}
+body 
+ {
+	 background-image:url('../Images/1.jpg');
+	 background-size:cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 max-height: 100%;
+	 max-width:auto;
+	 color: yellow;	
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+ li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: white;
+    color: red;
+}
+.active {
+    background-color: #4CAF50;
+}
+ 
+form
+ {
+	/*display: inline-block; /*makes the buttons display in a line*/
+ }
+ .picture
+ {
+	 margin-left: 30px;
+	 position: center;
+ }
